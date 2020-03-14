@@ -1,4 +1,4 @@
 # Genome-skimming
 
 To run the code:
-python coverage.py <coverage> <individual fasta file> <alignment file>
+python coverage.py coverage input_fasta_file alignment_file
