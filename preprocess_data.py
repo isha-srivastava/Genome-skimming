@@ -19,10 +19,7 @@ def write_fasta(outfile, ind):
     f = open(outfile, "w+")
     f.write('>seq1\n') # Only 1 sequence
     for i in range(0, len(ind)):
-        #if i != 0 and i % 70 == 0: # limit set at 70
-        #    f.write("\n")
         f.write(ind[i])
-    #f.write("\n")
     f.close()
     
 if __name__ == "__main__":
